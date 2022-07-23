@@ -29,7 +29,7 @@ const Counter = () => {
     }
     return (
         <div className="counter">
-            <h1>Counter</h1>
+            <h1 style={{color: 'red'}} >Counter</h1>
             <h2 className="count">{count}</h2>
             <h4 className="taps">Total taps: {taps}</h4>
             <div>
